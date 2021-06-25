@@ -1,0 +1,32 @@
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    .container{
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 0 15px;
+        .header{
+            display: flex;
+            &-menu{
+               display: flex;
+               list-style: none;
+               margin: 0 auto;
+               &-item{
+                   padding: 40px;
+                   &-link{
+                       color: red;
+                       background-color:pink;
+                       padding: 10px 30px;
+                       &:hover{
+                           background-color: chocolate;
+                           color: white;
+                           font-size: 20px;
+                           border-radius: 40px;
+                           transition: 0.5s all;
+                       }
+                   }
+               }
+            }
+        }
+    }
+  }

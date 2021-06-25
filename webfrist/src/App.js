@@ -1,6 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
-import './SASS/style.css';
+import './SASS/App.scss'
 import Product from './components/Product';
 import SinhVien from './Databinding/SinhVien.jsx';
 import Event from './Databinding/Event';

@@ -31,16 +31,15 @@ body {
 }
 
 .wrapper .container {
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 15px;
 }
 
 .wrapper .container .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
 }
 
 .wrapper .container .header-menu {
@@ -48,13 +47,25 @@ body {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+  margin: 0 auto;
 }
 
 .wrapper .container .header-menu-item {
-  padding: 20px 40px;
+  padding: 40px;
 }
 
 .wrapper .container .header-menu-item-link {
-  color: black;
+  color: red;
+  background-color: pink;
+  padding: 10px 30px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.wrapper .container .header-menu-item-link:hover {
+  background-color: chocolate;
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+/*# sourceMappingURL=App.css.map */
