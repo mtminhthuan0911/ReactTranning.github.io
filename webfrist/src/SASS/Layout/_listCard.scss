@@ -1,0 +1,57 @@
+
+    .txtheader{
+        font: {
+            size: 40px;
+            weight:bold;
+        }
+        color: red;
+        text-align: left;
+    }
+    .ListProduct{
+        --spacing : 40px;
+        --column : 3;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+        margin-bottom: calc(-1 * var(--spacing));
+        & > *{
+            margin-left: var(--spacing);
+            margin-bottom: var(--spacing);
+            width: calc((100% / var(--column)) - var(--spacing));
+        }
+        &-card{
+            border-radius: 10px;
+            padding: 10px;
+            border: 1px solid #eee;
+            img{
+                height: 100px;
+                width: 100%;
+                object-fit: cover;
+                border-radius: inherit;
+            }
+            .content{
+                
+                &-name{
+                    font: {
+                        weight:bold;
+                        size:20px
+                    }
+                }
+                &-desc{
+                    padding: 5px 5px;
+                    text-align: left;
+                    font: {
+                        size:13px;
+                        color: #CCC;
+
+                    }
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+   
+
+   
+
+   

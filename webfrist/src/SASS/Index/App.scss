@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 img{
@@ -22,4 +22,12 @@ body{
   overflow-x: hidden;
 }
 
-@import './Layout/Header';
+@import '../Layout/Header';
+
+@import '../Layout/button';
+
+@import '../Layout/SelectColor';
+
+@import '../Layout/Table';
+
+@import '../Layout/listCard';

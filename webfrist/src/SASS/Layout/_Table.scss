@@ -1,0 +1,21 @@
+.container{
+    .Title{
+        font-size: 30px;
+        margin-bottom: 20px
+    }
+    .Data{
+        border: 1px solid black;
+        width: 100%;
+    }
+    td{
+        border: 1px solid black;
+    }
+    .heading{
+        background-color: coral;
+        color: #FFFFFF;
+        font: {
+                size:20px;
+                weight: bold;
+        };
+    }
+}

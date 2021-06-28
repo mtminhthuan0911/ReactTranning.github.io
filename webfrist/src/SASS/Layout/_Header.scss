@@ -13,16 +13,20 @@
                margin: 0 auto;
                &-item{
                    padding: 40px;
+                   transition: transform 0.5s;
+                   &:hover{
+                    transform: scale(1.2);
+                   }
                    &-link{
                        color: red;
-                       background-color:pink;
+                       background-color: coral;
                        padding: 10px 30px;
+                       border-radius: 12px;
+                       color: #FFFFFF;
+                       
                        &:hover{
-                           background-color: chocolate;
+                           background-color: #0099ff;
                            color: white;
-                           font-size: 20px;
-                           border-radius: 40px;
-                           transition: 0.5s all;
                        }
                    }
                }
