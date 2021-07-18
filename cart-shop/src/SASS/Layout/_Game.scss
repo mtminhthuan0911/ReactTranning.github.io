@@ -1,0 +1,145 @@
+.Block{
+    display: flex;
+    justify-content: space-between;
+    &-TaiXiu{
+        margin: 120px auto;
+    }
+    .danhsachghe{
+        &-txt{
+            font: {
+                size: 30px;
+                weight:bold;
+            };
+            text-align: center;
+        }
+        .screen{
+            border-bottom: 50px solid #0099ff;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            height: 100;
+            width: 550px;
+            filter: drop-shadow(4px 30px 20px #1e1e1ecb);
+            font-size: 25px;
+            color: #1e1e1e;
+        }
+        .ghe{
+            .booking{
+                padding: 10px 15px;
+                margin: 50px 8px;
+                text-align: center;
+                display: block;
+            }
+        }
+    }
+    .hoadon{
+        width: 400px;
+        .txtHoadon{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        &-BLock{
+            display: flex;
+            align-items: center;
+            .ghe{
+                width: 30px;
+                height: 30px;
+                background-color: red;
+            }
+            .txt{
+                font-size: 25px;
+                padding: 12px;
+            }
+            .booking{
+                background-color:  yellow;
+            }
+            .unbook {
+                background-color: #0099ff;
+            }
+        }
+        &-chitiet{
+           .table{
+               width: 100%;
+               .tdheading{
+                   font-weight: bold;
+               }
+               td{
+                border: 4px solid #1e1e1e;
+                text-align: center;
+                width: 400px;
+            }
+            tbody{
+                .Cancel{
+                    color: red;
+                    font: {
+                        size: 25px;
+                        weight : bold;
+                    };
+                }
+                td{
+                    font-size: 20px;
+                }
+            }
+            tfoot{
+                td{
+                    border: 4px solid #1e1e1e;
+                    font-size: 20px;
+                }
+            }
+           }
+        }
+    }
+    img{
+        max-width: 300px;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        background-color: #178ea8;
+    }
+    .ava{
+        object-fit: cover;
+        margin-top: 30px;
+    }
+    .keobuabao{
+        display: flex;
+        margin-top: 20px;
+        .select:active{
+            
+            transform: scale(0.7)
+        }
+        img{
+            max-width: 100px;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border: 2px solid #178ea8;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+    .content{
+        width: 500px;
+        text-align: center;
+        .txtHeading{
+            color:  #1e1e1e;
+        }
+        .txtThongTin{
+            font: {
+                size : 30px ;
+                weight : bold ;
+            };
+        }
+    }
+}
+.Content{
+    width: 100%;
+    text-align: center;
+    border: 4px solid black;
+    padding: 15px;
+    &-Game{
+        font: {
+            size: 38px;
+            weight : bold;
+        };
+        color: #178ea8;
+    }
+}

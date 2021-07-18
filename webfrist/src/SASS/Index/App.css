@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,700;0,800;0,900;1,300;1,400;1,500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +20,7 @@ a {
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: 'Mulish';
   font-size: 16px;
   line-height: 1.5;
   overflow-x: hidden;
@@ -279,10 +280,20 @@ body {
 }
 
 .txtheader {
+  margin: 50px 20px 25px;
   font-size: 40px;
   font-weight: bold;
   color: red;
   text-align: left;
+}
+
+.txtcart {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  padding: 10px;
+  cursor: pointer;
+  text-align: right;
 }
 
 .ListProduct {
@@ -328,5 +339,91 @@ body {
   font-size: 13px;
   font-color: #CCC;
   line-height: 30px;
+}
+
+.ListProduct_Details {
+  margin-top: 50px;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 30px;
+}
+
+.ListProduct_Details-Img {
+  max-width: 500px;
+}
+
+.ListProduct_Details-Info {
+  margin: 0 auto;
+}
+
+.ListProduct_Details-Info .Title {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: red;
+}
+
+.ListProduct_Details-Info .Price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ListProduct_Details-Info .CPU {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.modal-content {
+  min-height: 350px;
+  width: 100%;
+  max-width: 800px;
+  padding: 25px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #fff;
+}
+
+.modal-content-heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.modal-content .process {
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.modal-content .process button {
+  margin-left: 40px;
 }
 /*# sourceMappingURL=App.css.map */

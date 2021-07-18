@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper .container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.wrapper .container .txtHeading {
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+}
+
+.wrapper .container .txtCart {
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  width: 100px;
+}
+
+.wrapper .container .txtCart:hover {
+  color: #0099ff;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.Logo_page {
+  margin: 40px auto;
+}
+
+.modal-content {
+  width: 1000px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+.img_Product {
+  max-width: 50px;
+}
+
+.txtheader {
+  font-size: 30px;
+  color: #1e1e1e;
+  border-bottom: 2px solid #0099ff;
+  width: 200px;
+  text-align: center;
+}
+
+.ListProduct {
+  --spacing: 20px;
+  --column: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: calc(-1 * var(--spacing));
+  margin-bottom: calc(-1 * var(--spacing));
+}
+
+.ListProduct > * {
+  margin-left: var(--spacing);
+  margin-bottom: var(--spacing);
+  width: calc((100% / var(--column)) - var(--spacing));
+}
+
+.ListProduct-Card {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.ListProduct-Card-Name, .ListProduct-Card-Price {
+  padding: 10px 10px 0px;
+  font-weight: 500;
+}
+
+.ListProduct-Card-Name {
+  font-size: 20px;
+}
+
+.ListProduct-Card img {
+  display: block;
+  max-width: 100%;
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: inherit;
+}
+
+.btn {
+  padding: 8px 24px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.primary {
+  background-color: #0099ff;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.primary:hover {
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.primary:active {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.second {
+  background-color: #1e1e1e;
+}
+
+.second:hover {
+  color: white;
+}
+
+.size {
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+  background-color: #0099ff;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.size:hover {
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 7px solid red;
+  -webkit-box-shadow: 0 5px 20px maroon;
+          box-shadow: 0 5px 20px maroon;
+}
+
+.size:active {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.Block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Block-TaiXiu {
+  margin: 120px auto;
+}
+
+.Block .danhsachghe-txt {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Block .danhsachghe .screen {
+  border-bottom: 50px solid #0099ff;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width: 550px;
+  -webkit-filter: drop-shadow(4px 30px 20px #1e1e1ecb);
+          filter: drop-shadow(4px 30px 20px #1e1e1ecb);
+  font-size: 25px;
+  color: #1e1e1e;
+}
+
+.Block .danhsachghe .ghe .booking {
+  padding: 10px 15px;
+  margin: 50px 8px;
+  text-align: center;
+  display: block;
+}
+
+.Block .hoadon {
+  width: 400px;
+}
+
+.Block .hoadon .txtHoadon {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Block .hoadon-BLock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Block .hoadon-BLock .ghe {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.Block .hoadon-BLock .txt {
+  font-size: 25px;
+  padding: 12px;
+}
+
+.Block .hoadon-BLock .booking {
+  background-color: yellow;
+}
+
+.Block .hoadon-BLock .unbook {
+  background-color: #0099ff;
+}
+
+.Block .hoadon-chitiet .table {
+  width: 100%;
+}
+
+.Block .hoadon-chitiet .table .tdheading {
+  font-weight: bold;
+}
+
+.Block .hoadon-chitiet .table td {
+  border: 4px solid #1e1e1e;
+  text-align: center;
+  width: 400px;
+}
+
+.Block .hoadon-chitiet .table tbody .Cancel {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Block .hoadon-chitiet .table tbody td {
+  font-size: 20px;
+}
+
+.Block .hoadon-chitiet .table tfoot td {
+  border: 4px solid #1e1e1e;
+  font-size: 20px;
+}
+
+.Block img {
+  max-width: 300px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #178ea8;
+}
+
+.Block .ava {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 30px;
+}
+
+.Block .keobuabao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.Block .keobuabao .select:active {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.Block .keobuabao img {
+  max-width: 100px;
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #178ea8;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Block .content {
+  width: 500px;
+  text-align: center;
+}
+
+.Block .content .txtHeading {
+  color: #1e1e1e;
+}
+
+.Block .content .txtThongTin {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Content {
+  width: 100%;
+  text-align: center;
+  border: 4px solid black;
+  padding: 15px;
+}
+
+.Content-Game {
+  font-size: 38px;
+  font-weight: bold;
+  color: #178ea8;
+}
+
+.Validation {
+  max-width: 1170px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.Validation-From {
+  background-color: #ebe9e9;
+  padding: 15px 30px;
+  height: 550px;
+  width: 550px;
+  border-radius: 12px;
+}
+
+.Validation-From .txtTitle {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 555;
+  padding: 10px;
+  border-bottom: 1px solid #0099ff;
+}
+
+.Validation-From-Content label {
+  font-size: 13px;
+  display: block;
+}
+
+.Validation-From-Content span {
+  color: red;
+  font-size: 14px;
+}
+
+.Validation-From-Content input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid black;
+  background: none;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.Validation-From-Content input:focus {
+  outline: none;
+  border-bottom: 2px solid #0099ff;
+  color: black;
+}
+
+.Validation-From-Content .FName_LName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.Validation-From-Content .FName_LName .Lname {
+  margin-left: auto;
+}
+
+.Validation-From-Content .Password_PasswordCF {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Validation-From-Content .Password_PasswordCF .PasswordCF {
+  margin-left: auto;
+}
+
+.Validation-From-Content .FName_LName, .Validation-From-Content .Password_PasswordCF, .Validation-From-Content .UserName, .Validation-From-Content .Email {
+  margin: 30px 0px;
+}
+
+.Validation-From button {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

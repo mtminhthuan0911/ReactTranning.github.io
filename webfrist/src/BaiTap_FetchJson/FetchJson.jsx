@@ -14,6 +14,8 @@ export default class FetchJson extends Component {
         }
     }
 
+   
+
     renderJson = () => {
         return this.state.Dataphim.map((phim , index) => {
             return (
@@ -25,21 +27,29 @@ export default class FetchJson extends Component {
                                 {phim.tenPhim}
                             </p>
                             <p className="content-desc">
-                                {phim.moTa}
+                                Mô Tả Phim
                             </p>
+                           
                         </div>
                    </div>
-             
             )
+            
         })
     }
+
+    
+
+
+   
+
+   
 
 
     render() {
         console.log(this.state.Dataphim);
         return (
             <div className="container">
-                    <p className="txtheader">Danh Sách Phim</p>
+                    <p className="txtheader">Render sử dụng Sate</p>
                     <div className="ListProduct">
                         {this.renderJson()}
                     </div>

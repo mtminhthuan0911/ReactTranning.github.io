@@ -1,0 +1,44 @@
+[
+    {
+        "MASP": 1,
+        "Img" : "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        "TenSP":"MacbookPro 2016",
+        "CPU" : "Intel",
+        "Price": 2000
+    },
+    {
+        "MASP": 2,
+        "Img" : "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        "TenSP":"Hp envy 13 ",
+        "CPU" : "Intel",
+        "Price": 700
+    },
+    {
+        "MASP": 3,
+        "Img" : "https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+        "TenSP":"MacbookPro 2019",
+        "CPU" : "Intel",
+        "Price": 4000
+    },
+    {
+        "MASP": 4,
+        "Img" : "https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+        "TenSP":"MacbookPro M1",
+        "CPU" : "M1",
+        "Price": 4000
+    },
+    {
+        "MASP": 5,
+        "Img" : "https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+        "TenSP":"MacbookPro zzz",
+        "CPU" : "M222",
+        "Price": 6000
+    },
+    {
+        "MASP": 6,
+        "Img" : "https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+        "TenSP":"MacbookPro 12",
+        "CPU" : "M1",
+        "Price": 14000
+    }
+]

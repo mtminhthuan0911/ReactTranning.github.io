@@ -1,0 +1,44 @@
+[
+    {
+        "Masp":"1",
+        "Name": "Nike F1",
+        "Img" : "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80",
+        "Price" : 4000
+    },
+
+    {
+        "Masp":"2",
+        "Name": "Nike AF1",
+        "Img" : "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        "Price" : 8000
+    },
+
+    {
+        "Masp":"3",
+        "Name": "Nike Jordan",
+        "Img" : "https://images.unsplash.com/photo-1618623583196-e4e9e11f8511?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=748&q=80",
+        "Price" : 12000
+    },
+
+    {
+        "Masp":"4",
+        "Name": "Nike Nike Nike",
+        "Img" : "https://images.unsplash.com/photo-1524532787116-e70228437bbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        "Price" : 44000
+    },
+
+    {
+        "Masp":"5",
+        "Name": "Nike Nike Nike1",
+        "Img" : "https://images.unsplash.com/photo-1618329340733-ab4554d28b15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=603&q=80",
+        "Price" : 34000
+    },
+
+    {
+        "Masp":"6",
+        "Name": "Nike Nike Nike2",
+        "Img" : "https://images.unsplash.com/photo-1598313697935-b4d757c226c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+        "Price" : 44000
+    }
+    
+]

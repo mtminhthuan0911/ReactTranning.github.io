@@ -1,0 +1,42 @@
+.btn{
+    padding: 8px 24px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+.primary{
+    background-color: #0099ff;
+    transition: transform 0.5s;
+    &:hover{
+        color: white;
+        transform: scale(1.1);
+    }
+    &:active{
+        transform: translateY(-10px);
+    }
+}
+.second{
+    background-color: #1e1e1e;
+    &:hover{
+        color: white;
+    }
+}
+.size{
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #0099ff;
+    transition: transform 0.5s;
+    &:hover{
+        color: white;
+        transform: scale(1.1);
+        border: 7px solid red;
+        box-shadow: 0 5px 20px maroon;
+    }
+    &:active{
+        transform: translateY(-10px);
+    }
+}

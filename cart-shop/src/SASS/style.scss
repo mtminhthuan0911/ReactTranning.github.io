@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+img{
+    display: block;
+    max-width: 100%;
+}
+button{
+    cursor: pointer;;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    .container{
+        max-width: 1170px;
+        padding: 0 15px;
+        margin: 0 auto;
+        .txtHeading{
+            padding: 40px;
+            text-align: center;
+            font: {
+                size: 40px;
+                weight : bold;
+            }
+            color:red;
+        }
+        .txtCart{
+            font: {
+                size: 20px;
+                weight:bold;
+            }
+            float: right;
+            cursor: pointer;
+            width: 100px;
+            &:hover{
+                color: #0099ff;
+                transition: 0.5s all
+            }
+        }
+    }
+}
+
+.Logo_page{
+    margin: 40px auto;
+}
+
+
+.modal-content{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.img_Product{
+    max-width: 50px;
+}
+
+// Stye_Modal
+@import '../SASS/Layout/Modal';
+// Stye_ListCart
+@import '../SASS/Layout/ListCard';
+// Style_Button
+@import '../SASS/Layout/Button';
+// Game_button
+@import '../SASS/Layout/Game';
+// Form - Validation : 
+@import './Layout/UserForm';

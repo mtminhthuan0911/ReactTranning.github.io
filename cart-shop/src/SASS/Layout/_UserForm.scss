@@ -1,0 +1,73 @@
+.Validation{
+    max-width: 1170px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    &-From{
+        background-color: rgb(235, 233, 233);
+        padding: 15px 30px;
+        height: 550px;
+        width: 550px;
+        border-radius: 12px;
+        .txtTitle{
+            text-align: center;
+            font: {
+                size : 25px;
+                weight : 555;
+            };
+            padding: 10px;
+            border-bottom: 1px solid #0099ff;
+        }
+        &-Content{
+            label{
+                font: {
+                    size: 13px;
+                };
+                display: block;
+            }
+            span{
+                color: red;
+                font-size: 14px;
+            }
+            input{
+                border: {
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 2px solid black
+                };
+                background: none;
+                width: 100%;
+                padding: 5px 15px;
+                
+            }
+            input:focus {
+                outline: none;
+                border-bottom: 2px solid #0099ff;
+                color: black;
+            }
+            .FName_LName{
+                display: flex;
+                position: relative;
+                .Lname{
+                    margin-left: auto;
+                }
+
+            }
+            .Password_PasswordCF{
+                display: flex;
+                .PasswordCF{
+                    margin-left: auto;
+                }
+            }
+
+            .FName_LName,.Password_PasswordCF,.UserName,.Email{
+                margin: 30px 0px;
+            }
+        }
+        button{
+            width: 100%;
+        }
+    }
+}

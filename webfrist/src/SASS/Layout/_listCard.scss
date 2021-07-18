@@ -1,11 +1,23 @@
 
     .txtheader{
+        
+        margin: 50px 20px 25px;
         font: {
             size: 40px;
             weight:bold;
         }
         color: red;
         text-align: left;
+    }
+    .txtcart{
+        font: {
+            size: 30px;
+            weight:bold;
+        };
+        color: red;
+        padding: 10px;
+        cursor: pointer;
+        text-align: right;
     }
     .ListProduct{
         --spacing : 40px;
@@ -52,6 +64,39 @@
     }
    
 
-   
+   .ListProduct_Details{
+       margin-top: 50px;
+       border: 2px solid black;
+       display: flex;
+       
+       padding: 15px 30px;
+       &-Img{
+           max-width: 500px;
+       }
+       &-Info{
+           margin: 0 auto;
+           .Title{
+               font : {
+                   size: 30px;
+                   weight: bold;
+               }
+               text-transform: uppercase;
+               letter-spacing: 20px;
+               color: red;
+           }
+           .Price{
+            font : {
+                size: 30px;
+                weight: bold;
+            }
+           }
+           .CPU{
+            font : {
+                size: 30px;
+                weight: bold;
+            }
+           }
+       }
+   }
 
    
