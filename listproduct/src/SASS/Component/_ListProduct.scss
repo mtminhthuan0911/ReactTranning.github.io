@@ -1,0 +1,51 @@
+img {
+    display: block;
+    max-width: 100%;
+  }
+  /* End base setting */
+  .ListProduct {
+    --spacing: 20px;
+    --column: 3;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--spacing));
+    margin-bottom: calc(-1 * var(--spacing));
+    &-item {
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid #eee;
+        text-align: center;
+        &-image {
+          height: 200px;
+          width: 100%;
+          object-fit: cover;
+          border-radius: inherit;
+        }
+        &-name{
+          text-align: center;
+          font: {
+            size: 20px;
+            weight : 500;
+          };
+          padding: 10px 0px;
+        }
+        &-price {
+          text-align: center;
+          font: {
+            size: 18px;
+            weight : 500;
+          };
+          padding: 5px 0px;
+        }
+        
+      }
+      
+      & > * {
+        margin-left: var(--spacing);
+        margin-bottom: var(--spacing);
+        width: calc((100% / var(--column)) - var(--spacing));
+      }
+  }
+ 
+ 
+ 

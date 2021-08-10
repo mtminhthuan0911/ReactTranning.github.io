@@ -1,0 +1,117 @@
+.Form {
+    margin: 40px auto;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 20px;
+    &-title{
+        background-color: #1e1e1e;
+        color: white;
+        padding: 15px 20px 3px;
+        border-radius: 10px;
+        font: {
+            size: 24px;
+            weight:bold;
+        };
+    }
+    &-Component{
+       display: flex;
+       padding: 15px;
+       &-Left,&-Right{
+          position: relative;
+           label{
+               display: block;
+           }
+           input{
+               max-width: 500px;
+               width: 400px;
+               padding-left: 20px;
+               height: 50px;
+               border-radius: 7px;
+               border: 1px solid #1e1e1e;
+               font-family: 'Comfortaa';
+               position: relative;
+               font: {
+                   size: 16px;
+                   weight : 500;
+               };
+               
+               &:focus{
+                   border: 2px solid #0099ff;
+                   outline: none;
+                   
+               }
+               
+           }
+
+           
+
+           .input {
+               margin-top: 25px;
+            position: relative;
+                
+           .lb1{
+               position: absolute;
+               top: 50%;
+               transform: translateY(-50%);
+               pointer-events: none;
+               left: 26px;
+               user-select: none;
+               transition: 0.5s ease;
+               color: rgb(121, 118, 118);
+               i{
+                 margin-right: 7px;
+                }
+           }
+           .lb2,.lb4,.lb5{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            left: 26px;
+            user-select: none;
+            transition: 0.5s ease;
+            color: rgb(121, 118, 118);
+            i{
+                margin-right: 7px;
+               }
+           }
+           .lb3{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            left: 26px;
+            user-select: none;
+            transition: 0.5s ease;
+            color: rgb(121, 118, 118);
+            i{
+                margin-right: 7px;
+               }
+           }
+           input:not(:placeholder-shown) + label,
+           input:focus + label{
+               color: #0099ff;
+               transition: 0.5s ease;
+               top: 0px;
+               padding: 0 10px;
+               display: inline-block;
+               background-color: #FFFFFF; 
+               border-radius: 20px;
+               outline: none;
+               font-weight: bold;
+           }
+       }
+    }
+       &-Right{
+           margin-left: auto;
+       }
+       &-Left{
+           .process{
+               margin-top: 20px;
+               .btn:not(:first-child){
+                   margin-left: 20px;
+               }
+           }
+       }
+    }
+}

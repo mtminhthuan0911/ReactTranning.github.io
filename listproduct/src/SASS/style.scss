@@ -1,0 +1,48 @@
+// --------------- SCSS -----------------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+img{
+    display: block;
+    max-width: 100%;
+}
+button{
+    cursor: pointer;;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+    background-color: #262626;
+    color: #FFFFFF;
+}
+
+.modal-content{
+    max-width: 1170px;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,20%);
+    img{
+        max-width: 60px;
+        border-radius: 10px;
+    }
+    border-radius: 20px;
+}
+
+@import './Component/Header';
+@import './Component/Button';
+@import './Component/ListProduct';
+@import './Component/Wrapper';

@@ -1,0 +1,51 @@
+.wrapper{
+    width: 100%;
+    margin: 0 auto; overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    z-index: 4;
+    background-color: #FFFFFF;
+    .container{
+        max-width: 1300px;
+        margin: 0 auto;
+        .header{
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            .LogoPage{
+                max-width: 200px;
+            }
+            .name{
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+                .menu{
+                    display: flex;
+                    align-content: center;
+                    margin: 0 auto;
+                    &-item{
+                        padding: 20px 40px;
+                        &-link{
+                            color: #172B4D;
+                            font-weight: 500;
+                            transition: ease 0.5s;
+                            position: relative;
+                            padding: 10px 10px;
+                            &:hover{
+                                background-color: #172B4D;
+                                color: #FFFFFF;
+                                border-radius: 7px;
+                            }
+                        }
+                        .activity{
+                            background-color: #172B4D;
+                            color: #FFFFFF;
+                            border-radius: 7px;
+                        }
+                    }
+                }
+                
+            }
+            }
+    }
+}

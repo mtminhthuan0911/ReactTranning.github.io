@@ -1,0 +1,44 @@
+[
+    {
+        "Id" : 1,
+        "Img" : "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "Name" : "General testing package",
+        "Price" : 850000,
+        "Desc" : "A general blood test is considered a convenient, fast health check-up method and is prescribed by most doctors in medical examination and treatment cases."
+    },
+    {
+        "Id" : 2,
+        "Img" : "https://images.unsplash.com/photo-1524499982521-1ffd58dd89ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1137&q=80",
+        "Name" : "Blood Fatty Liver Enzyme",
+        "Price" : 650000,
+        "Desc" : "Tet is an occasion to reunite and bring inspiration to eat and drop the brakes, along with the mode of living without mode mode of living leading to many consequences for our health."
+    },
+    {
+        "Id" : 3,
+        "Img" : "https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "Name" : "Liver Test Package",
+        "Price" : 1500000,
+        "Desc" : "The test assesses liver function, risk of hepatitis B, cirrhosis, liver cancer.Very early cancer is mostly cured by simple"
+    },
+    {
+        "Id" : 4,
+        "Img" : "https://images.unsplash.com/photo-1576766125468-a5d48274c5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "Name" : "Female Cancer Screening",
+        "Price" : 1850000,
+        "Desc" : "Female cancer screening is to detect cancer at a very early stage, without any manifestations of the disease. Very early cancer is mostly cured by simple"
+    },
+    {
+        "Id" : 5,
+        "Img" : "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+        "Name" : "Male Cancer screening",
+        "Price" : 2850000,
+        "Desc" : "Cancer is a disease that leads to rapid death. General examination and cancer screening to help screen for 6 types of cancer, early detection of cancer markers for patients"
+    },
+    {
+        "Id" : 6,
+        "Img" : "https://images.unsplash.com/photo-1576091358783-a212ec293ff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "Name" : "Blood type test",
+        "Price" : 250000,
+        "Desc" : "You need to know what blood type you belong to for health reasons, to apply for a visa to travel abroad, or just to know about your body. You can guess your blood type is based on your parents' blood type, but you definitely have to go for a blood test to know exactly."
+    }
+]

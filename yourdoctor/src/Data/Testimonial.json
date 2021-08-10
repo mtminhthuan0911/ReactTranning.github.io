@@ -1,0 +1,26 @@
+[
+    {
+        "Id" : 1,
+        "Img" : "https://epal.vn/wp-content/uploads/2019/05/grab-logo.png"
+    },
+    {
+        "Id" : 2,
+        "Img" : "https://epal.vn/wp-content/uploads/2017/12/tui-mua-1.png"
+    },
+    {
+        "Id" : 3,
+        "Img" : "https://epal.vn/wp-content/uploads/2019/07/vinhome365-logo.png"
+    },
+    {
+        "Id" : 4,
+        "Img" : "https://epal.vn/wp-content/uploads/2019/07/Strawberry-logo.png"
+    },
+    {
+        "Id" : 5,
+        "Img" : "https://epal.vn/wp-content/uploads/2017/12/ladofoods-1.png"
+    },
+    {
+        "Id" : 6,
+        "Img" : "https://epal.vn/wp-content/uploads/2017/12/nava-land-1.png"
+    }
+]

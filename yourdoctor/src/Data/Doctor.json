@@ -1,0 +1,30 @@
+[
+    {
+        "Ma" : 1,
+        "Img" : "./img/doctor1.png" ,
+        "NameDocTor" : "Dr.Waluyo",
+        "Department" : "Department of Neurology ",
+        "Patient" : "5000"
+    },
+    {
+        "Ma" : 2,
+        "Img" : "./img/doctor.png" ,
+        "NameDocTor" : "Dr.Nagatom",
+        "Department" : "Department of Pediatrics ",
+        "Patient" : "2000"
+    },
+    {
+        "Ma" : 3,
+        "Img" : "./img/doctor2.png" ,
+        "NameDocTor" : "Dr.JohnSky",
+        "Department" : "Department of Cardiology",
+        "Patient" : "1000"
+    },
+    {
+        "Ma" : 4,
+        "Img" : "./img/doctor8.png" ,
+        "NameDocTor" : "Dr.JohnSky",
+        "Department" : "Department of Cardiology",
+        "Patient" : "3000"
+    }
+]

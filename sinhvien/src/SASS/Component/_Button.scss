@@ -1,0 +1,36 @@
+.btn {
+    padding: 12px 24px;
+    background: none;
+    border: 0;
+    border-radius: 12px;
+    color: #1e1e1e;
+    text-align: center;
+    transition: transform 0.5s;
+    &:hover{
+        transform: scale(1.1);
+        color: white;
+    }
+    &:active{
+        transform: translateY(-10px);
+        outline: none;
+    }
+}
+
+.primary {
+    background-color: #0099ff;
+    box-shadow: 0 2px 15px #0099ff;
+    color: #FFFF;
+}
+
+.second {
+    background-color: coral;
+    box-shadow: 0 2px 15px coral;
+    color: #FFFF;
+}
+
+.processbtn{
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 15px #1e1e1e;
+    color: #FFFF;
+}
+

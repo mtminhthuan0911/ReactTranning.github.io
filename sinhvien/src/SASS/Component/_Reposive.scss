@@ -1,0 +1,46 @@
+
+@media screen and (min-width : 375px) and (max-width : 760px) { 
+    .Form{
+        display: none;
+    }
+    .table{
+        display: none;
+    }
+    .wrapper{
+        .container{
+            .LogoPage {
+                display: none;
+            }
+        }
+    }
+    
+    .Page404{
+        max-width: 1440px;
+        display: block;
+        margin: 0 auto;
+        .container{
+            max-width: 1170px;
+            margin: 100px auto;
+            line-height: 4;
+            .Title{
+                color: white !important;
+                text-align: center;
+                .Logo{
+                    max-width: 120px;
+                    margin: 20px auto;
+                }
+                &-header{
+                    font: {
+                        size: 60px;
+                        weight : bold;
+                    };
+                }
+                .contents{
+                    font-size: 30px;
+                    weight : bold
+                }
+            }
+        }
+    }
+}
+

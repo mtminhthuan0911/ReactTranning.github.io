@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Comfortaa';
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+  background: #1e1e1e;
+}
+
+.Page404 {
+  display: none;
+}
+
+.btn {
+  padding: 12px 24px;
+  background: none;
+  border: 0;
+  border-radius: 12px;
+  color: #1e1e1e;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
+}
+
+.btn:active {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  outline: none;
+}
+
+.primary {
+  background-color: #0099ff;
+  -webkit-box-shadow: 0 2px 15px #0099ff;
+          box-shadow: 0 2px 15px #0099ff;
+  color: #FFFF;
+}
+
+.second {
+  background-color: coral;
+  -webkit-box-shadow: 0 2px 15px coral;
+          box-shadow: 0 2px 15px coral;
+  color: #FFFF;
+}
+
+.processbtn {
+  background-color: #1e1e1e;
+  -webkit-box-shadow: 0 2px 15px #1e1e1e;
+          box-shadow: 0 2px 15px #1e1e1e;
+  color: #FFFF;
+}
+
+.Form {
+  margin: 40px auto;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.Form-title {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 15px 20px 3px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Form-Component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+.Form-Component-Left, .Form-Component-Right {
+  position: relative;
+}
+
+.Form-Component-Left label, .Form-Component-Right label {
+  display: block;
+}
+
+.Form-Component-Left input, .Form-Component-Right input {
+  max-width: 500px;
+  width: 400px;
+  padding-left: 20px;
+  height: 50px;
+  border-radius: 7px;
+  border: 1px solid #1e1e1e;
+  font-family: 'Comfortaa';
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Form-Component-Left input:focus, .Form-Component-Right input:focus {
+  border: 2px solid #0099ff;
+  outline: none;
+}
+
+.Form-Component-Left .input, .Form-Component-Right .input {
+  margin-top: 25px;
+  position: relative;
+}
+
+.Form-Component-Left .input .lb1, .Form-Component-Right .input .lb1 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+  left: 26px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #797676;
+}
+
+.Form-Component-Left .input .lb1 i, .Form-Component-Right .input .lb1 i {
+  margin-right: 7px;
+}
+
+.Form-Component-Left .input .lb2, .Form-Component-Left .input .lb4, .Form-Component-Left .input .lb5, .Form-Component-Right .input .lb2, .Form-Component-Right .input .lb4, .Form-Component-Right .input .lb5 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+  left: 26px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #797676;
+}
+
+.Form-Component-Left .input .lb2 i, .Form-Component-Left .input .lb4 i, .Form-Component-Left .input .lb5 i, .Form-Component-Right .input .lb2 i, .Form-Component-Right .input .lb4 i, .Form-Component-Right .input .lb5 i {
+  margin-right: 7px;
+}
+
+.Form-Component-Left .input .lb3, .Form-Component-Right .input .lb3 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+  left: 26px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #797676;
+}
+
+.Form-Component-Left .input .lb3 i, .Form-Component-Right .input .lb3 i {
+  margin-right: 7px;
+}
+
+.Form-Component-Left .input input:not(:placeholder-shown) + label,
+.Form-Component-Left .input input:focus + label, .Form-Component-Right .input input:not(:placeholder-shown) + label,
+.Form-Component-Right .input input:focus + label {
+  color: #0099ff;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  top: 0px;
+  padding: 0 10px;
+  display: inline-block;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  outline: none;
+  font-weight: bold;
+}
+
+.Form-Component-Right {
+  margin-left: auto;
+}
+
+.Form-Component-Left .process {
+  margin-top: 20px;
+}
+
+.Form-Component-Left .process .btn:not(:first-child) {
+  margin-left: 20px;
+}
+
+.table {
+  background-color: #ffffff;
+  margin-top: 15px;
+  border-top: 3px solid #1e1e1e;
+}
+
+.table .btn {
+  padding: 4px 12px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper .container .LogoPage {
+  max-width: 100px;
+  margin: 40px auto;
+}
+
+@media screen and (min-width: 375px) and (max-width: 760px) {
+  .Form {
+    display: none;
+  }
+  .table {
+    display: none;
+  }
+  .wrapper .container .LogoPage {
+    display: none;
+  }
+  .Page404 {
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+  }
+  .Page404 .container {
+    max-width: 1170px;
+    margin: 100px auto;
+    line-height: 4;
+  }
+  .Page404 .container .Title {
+    color: white !important;
+    text-align: center;
+  }
+  .Page404 .container .Title .Logo {
+    max-width: 120px;
+    margin: 20px auto;
+  }
+  .Page404 .container .Title-header {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .Page404 .container .Title .contents {
+    font-size: 30px;
+    weight: bold;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+.AP {
+    max-width: 1440px;
+    margin: 100px auto;
+    .container{
+        max-width: 1300px;
+        padding: 0 15px;
+        margin: 0 auto;
+        .txtHeading {
+            font: {
+                size: 40px;
+                weight : bold;
+            };
+            color: red;
+            text-align: center;
+        }
+        .table{
+            max-width: 1300px;
+            width: 100%;
+            margin: 0 auto;
+            thead{
+                background-color: aqua;
+            }
+            th{
+                font: {
+                    size: 20px;
+                    weight : bold;
+                }
+                padding: 10px 20px;
+                text-align: left;
+            }
+            td{
+                padding: 10px 20px;
+                text-align: left;
+                border-bottom: 2px solid rgba(122, 121, 121, 0.603);
+                font : {
+                    size : 18px;
+                    weight : 400;
+                }
+            }
+        }
+    }
+    
+}

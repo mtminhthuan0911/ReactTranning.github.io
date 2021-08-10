@@ -1,0 +1,44 @@
+.btn{
+    padding: 10px 50px;
+    border-radius: 7px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        color: white;
+    }
+    &:active{
+        transform: translateY(-20px);
+        border: 0;
+    }
+}
+.btnmodal {
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        color: white;
+    }
+    &:active{
+        transform: translateY(-20px);
+        border: none;
+    }
+}
+
+.primary{
+    background-color: #0099ff;
+    color: white;
+    transition: transform 0.5s; 
+    border: 0;
+}
+
+.second {
+    background-color: #1e1e1e;
+    color : white;
+     transition: transform 0.5s;
+}
+
